@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-main pt-8 pb-16 md:pb-20 lg:pb-24">
+        <div class="container">
+            <div class="md:w-[80%] m-auto flex flex-col items-center justify-center text-center">
+                <img class="inline-block mb-6 max-w-[140px] xl:mb-10" src="img/logo.png" alt="">
+                <h1 class="text-white mb-6 xl:mb-10">Haste socio y se dueño de tu propio tiempo</h1>
+                <h3 class="text-white">Descarga la app, registrate y forma parte de una comunidad de personas que buscan
+                    ayuda inmediata</h3>
+                <form id="formTopContacto" name="contacto" class="w-full xl:w-[50%] xl:m-auto" novalidate>
+                    <div class="flex flex-col mt-8 sm:flex-row">
+                        <input type="text" name="telefono" type="text" placeholder="Ingrese su número de télefono"
+                            class="text-main input-form sm:flex-grow phoneValidationMark">
+                        <button type="submit" class="btn-principal mt-2 sm:mt-0 sm:ml-4">Enviar</button>
+                    </div>
+                </form>
+                <p class="text-yellowMe p-small mt-6 xl:mt-8">Estamos aquí para ayudarte, envianos tus dudas.</p>
+            </div>
+        </div>
+    </div>
+    <div class="hero-container">
+        <div class="px-2">
+            <div class="md:max-w-[70%] md:m-auto flex">
+                <div class="max-w-[80%] md:max-w-[50%] lg:max-w-[40%] m-auto">
+                    <img src="img/busqueda.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-8 pb-16 md:pb-20 lg:py-24">
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 lg:w-[80%] lg:m-auto xl:gap-8 xl:w-[90%]">
+                <div class="flex flex-col mb-6">
+                    <div class="mb-4 md:mb-6">
+                        <img src="img/soporte.png" class="max-w-[60px]" alt="">
+                    </div>
+                    <h4 class="text-main mb-4">Ayuda y Asistencia</h4>
+                    <p class="text-grayOpacity">Brindamos soporte los 365 días del año, en caso de que lo necesite.</p>
+                </div>
+                <div class="flex flex-col mb-6">
+                    <div class="mb-4 md:mb-6">
+                        <img src="img/comunidad.png" class="max-w-[60px]" alt="">
+                    </div>
+                    <h4 class="text-main mb-4">Comunidad</h4>
+                    <p class="text-grayOpacity">Contamos con una gran comunidad.</p>
+                </div>
+                <div class="flex flex-col">
+                    <div class="mb-4 md:mb-6">
+                        <img src="img/movil.png" class="max-w-[60px]" alt="">
+                    </div>
+                    <h4 class="text-main mb-4">Plataforma</h4>
+                    <p class="text-grayOpacity">Facilidad de uso, gracias a nuestra plataforma disponible en
+                        aplicaciones móviles.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-2 md:py-20 lg:py-24">
+        <div class="container">
+            <div class="lg:w-[80%] lg:m-auto xl:w-[60%]">
+                <div class="flex flex-col text-center">
+                    <h3 class="text-main mb-8">Descarga la App en tu teléfono o tablet es gratis, fácil y divertido.
+                    </h3>
+                    <p class="text-greenMe mb-4">Disponible para:</p>
+                    <div class="flex flex-col md:flex-row md:justify-center">
+                        <a href="#" target="_blank" class="btn-app">
+                            <img src="img/apple.svg" class="h-[40px]" alt="icon apple">
+                        </a>
+                        <a href="#" target="_blank" class="btn-app">
+                            <img src="img/google-play.svg" class="h-[57px]" alt="icon apple">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <div
+            class="border-t border-b border-grayBorder py-8 md:py-20 lg:py-24 lg:w-[80%] lg:m-auto xl:py-12 xl:w-[90%]">
+            <div class="grid grid-cols-2 gap-2 sm:grid-cols-3 items-center xl:grid-cols-8">
+                <div class="flex items-center justify-center mb-2 xl:mb-0">
+                    <img src="img/johnson-cliente.png" class="max-h-[120px] object-contain" alt="logo cliente">
+                </div>
+                <div class="flex items-center justify-center mb-2 xl:mb-0">
+                    <img src="img/kellogs.png" class="max-h-[120px] object-contain" alt="logo cliente">
+                </div>
+                <div class="flex items-center justify-center mb-2 xl:mb-0">
+                    <img src="img/lavolpe-cliente.png" class="max-h-[120px] object-contain" alt="logo cliente">
+                </div>
+                <div class="flex items-center justify-center mb-2 xl:mb-0">
+                    <img src="img/mannhummel-cliente.png" class="max-h-[120px] object-contain" alt="logo cliente">
+                </div>
+                <div class="flex items-center justify-center mb-2 xl:mb-0">
+                    <img src="img/mujerintime-cliente.png" class="max-h-[120px] object-contain" alt="logo cliente">
+                </div>
+                <div class="flex items-center justify-center mb-2 xl:mb-0">
+                    <img src="img/nutrisa.png" class="max-h-[120px] object-contain" alt="logo cliente">
+                </div>
+                <div class="flex items-center justify-center mb-2 xl:mb-0">
+                    <img src="img/pleno-cliente.png" class="max-h-[120px] object-contain" alt="logo cliente">
+                </div>
+                <div class="flex items-center justify-center mb-2 xl:mb-0">
+                    <img src="img/puertadelcielo-cliente.png" class="max-h-[120px] object-contain" alt="logo cliente">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="py-16 md:py-20 lg:py-24">
+        <div class="container">
+            <div class="flex flex-col justify-center text-center lg:w-[80%] lg:m-auto xl:mb-8 xl:w-[90%]">
+                <h3 class="text-main mb-4 xl:mb-8">"Work with me, la app creada para ti. <br> Desarrolla tu potencial y
+                    alcanza tus metas".</h3>
+                <!-- <cite class="text-yellowMe">Jonathan Bayme, CEO de Theory11</cite> -->
+                <div class="max-w-[80%] md:max-w-[40%] lg:max-w-[30%] m-auto">
+                    <img src="img/cobro2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-16 bg-main md:py-20 lg:py-24">
+        <div class="container">
+            <div class="flex flex-col xl:flex-row">
+                <div class="flex flex-col py-6 xl:w-[50%] xl:px-8">
+                    <h2 class="text-white mb-8">Haste socio y se dueño de tu propio tiempo</h2>
+                    <p class="text-white">
+                        Descarga la app, registrate y forma parte de una comunidad de personas que buscan ayuda
+                        inmediata
+                    </p>
+                </div>
+                <div class="flex flex-col xl:w-[50%] xl:px-8">
+                    <form id="formBottomContacto" name="contacto2" class="w-full" novalidate>
+                        <div class="flex flex-col mt-8 sm:flex-row">
+                            <input type="text" name="telefono" type="text" placeholder="Ingrese su número de télefono"
+                                class="text-main input-form sm:flex-grow phoneValidationMark">
+                            <button type="submit" class="btn-principal mt-2 sm:mt-0 sm:ml-4">Enviar</button>
+                        </div>
+                    </form>
+                    <p class="text-yellowMe p-small mt-6 xl:mt-8">Estamos aquí para ayudarte, envianos tus dudas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-6 bg-white">
+        <div class="container">
+            <div class="flex flex-col justify-center text-center md:flex-row md:justify-end">
+                <a href="terminos.html" class="text-main inline-block md:mr-4 hover:text-yellowMe">Términos de
+                    servicio</a>
+                <a href="aviso-privacidad.html" class="text-main inline-block hover:text-yellowMe">Política de
+                    privacidad</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.hero-container{
+    background: linear-gradient(to bottom, $main 0%, $main 50%, transparent 50%, transparent 100%);
+}
+
+.wisiyng-text{
+    h1,h2,h3,h4,h5{
+        margin-bottom: 1rem;
+    }
+    p{
+        margin-bottom: 1rem;
+    }
+    ol{
+        list-style: decimal;
+        li{
+            &:not(:last-child){
+                margin-bottom: 8px;
+            }
+        }
+    }
+    a{
+        text-decoration: underline;
+        &:hover{
+            color: $yellow;
+        }
+    }
+}
+
+.error{
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: 0.5rem;
+    display: block;
+}

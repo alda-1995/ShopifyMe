@@ -1,0 +1,88 @@
+.input-form {
+  height: 50px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 0 1px #6b7177;
+          box-shadow: 0 0 0 1px #6b7177;
+  padding: 1rem;
+  border-radius: 4px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.input-form:focus {
+  -webkit-box-shadow: 0 0 0 1px #6b7177;
+          box-shadow: 0 0 0 1px #6b7177;
+}
+
+.btn-principal {
+  background-color: #4674f2;
+  height: 50px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+}
+
+.btn-app {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-container {
+  background: -webkit-gradient(linear, left top, left bottom, from(#021e5b), color-stop(50%, #021e5b), color-stop(50%, transparent), to(transparent));
+  background: linear-gradient(to bottom, #021e5b 0%, #021e5b 50%, transparent 50%, transparent 100%);
+}
+
+.wisiyng-text h1, .wisiyng-text h2, .wisiyng-text h3, .wisiyng-text h4, .wisiyng-text h5 {
+  margin-bottom: 1rem;
+}
+
+.wisiyng-text p {
+  margin-bottom: 1rem;
+}
+
+.wisiyng-text ol {
+  list-style: decimal;
+}
+
+.wisiyng-text ol li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.wisiyng-text a {
+  text-decoration: underline;
+}
+
+.wisiyng-text a:hover {
+  color: #f49600;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 0.5rem;
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */
